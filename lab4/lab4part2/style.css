@@ -1,0 +1,36 @@
+.box1{
+  margin: 10px;
+  border: purple 2px dotted;
+}
+
+#box1_paragraph{
+  font-size: 12px;
+  margin: 10% 0px 20px 0px;
+  text-align: center;
+}
+
+#paragraph1{
+  font-size: 8px;
+  color: green;
+  text-align: center;
+  font-weight: bold;
+}
+
+#paragraph2{
+  font-size: 30px;
+  color: orange;
+  margin-top: 50px;
+}
+
+#text{
+  color: red;
+  position: relative;
+  bottom: 10px;
+}
+
+#paragraph3{
+  font-size: 8px;
+  color: purple;
+  text-align: right;
+  font-weight: bold;
+}

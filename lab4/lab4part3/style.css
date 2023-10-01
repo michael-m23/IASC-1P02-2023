@@ -1,0 +1,26 @@
+.top{
+  background-color: green;
+  margin-top: 10px;
+}
+
+.box{
+  margin-left: 5px;
+  margin-right: 5px;
+  border: black 3px dashed;
+}
+
+#firsttext{
+  color: red;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+#secondtext{
+  color: darkgreen;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+#thirdtext{
+  color: purple;
+}

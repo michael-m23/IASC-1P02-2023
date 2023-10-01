@@ -1,0 +1,19 @@
+body{
+  background-color: blue;
+}
+
+.parent{
+  margin: 10% 10% 20% 10%;
+  border: black 5px solid;
+}
+
+#child1{
+  margin: 15px;
+  border: green 1px dashed;
+  color: red;
+}
+
+#image{
+  border: yellow 1px dashed;
+  padding: 10px;
+}
