@@ -1,0 +1,35 @@
+#wrapper{
+  background-color: green;
+  height: 750px;
+}
+
+#contentOne{
+  float: left;
+  padding: 1px;
+  width: 250px;
+  height: 250px;
+  background-color: blue;
+  position: relative;
+  left: 250px;
+  top: 10px;
+}
+
+#contentTwo{
+  float: right;
+  padding: 1px;
+  width: 250px;
+  height: 250px;
+  background-color: red;
+  position: relative;
+  right: 250px;
+  top: 10px;
+}
+
+#contentThree{
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  background-color: yellow;
+  position: relative;
+  top: 200px;
+}
