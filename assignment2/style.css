@@ -1,0 +1,107 @@
+h4, h5, h6{
+  color: green;
+}
+
+.font_changer{
+  font-family: sans-serif;
+}
+
+.colour_changer{
+  color: red;
+}
+
+.case_changer{
+  text-transform: uppercase;
+}
+
+.size_changer{
+  font-size: 20px;
+}
+
+#main_header{
+  text-align: center;
+}
+
+#author{
+  position: fixed;
+  font-weight: bold;
+}
+
+#disclamer_paragraph{
+  font-style: italic;
+  text-align: center;
+}
+
+#anchor{
+  font-size: 10px;
+  text-align: center;
+}
+
+.main_content{
+  margin: 0 auto;
+}
+
+#paragraph_one{
+  width: 30%;
+  float: left;
+  margin: 0 1%;
+}
+
+#paragraph_two{
+  width: 30%;
+  float: left;
+  margin: 0 1%;
+}
+
+#paragraph_three{
+  width: 30%;
+  float: left;
+  margin: 0 1%;
+}
+
+#image_one{
+  width: 48%;
+}
+
+#image_two{
+  width: 48%;
+}
+
+.box{
+  margin: 50px;
+  border: 5px;
+  border-color: black;
+  border-style: solid;
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+}
+
+
+#content_one{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  left: 30px;
+}
+
+#content_two{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  left: 500px;
+  top: 50px;
+}
+
+
+.footer{
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
+.footer p{
+  font-style: italic;
+}
