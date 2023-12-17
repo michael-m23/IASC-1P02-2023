@@ -1,0 +1,160 @@
+#header{
+  height: 80px;
+  border-bottom: black 1px solid;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  margin: 0 auto;
+  top: 0px;
+}
+
+#main_title{
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 auto;
+  top: 22px;
+  left: 15px;
+  margin-right: 10px;
+  position: relative;
+  float: left;
+}
+
+.logo{
+  border: black 2px solid;
+  border-radius: 50%;
+  float: left;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.header_button{
+  top: 20px;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 16px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  margin-left: 10px;
+  position: relative;
+  float: right;
+  right: 30px;
+}
+
+#body_header{
+  top: 80px;
+  margin: 0 auto;
+  position: relative;
+  height: 130px;
+  border-bottom: black 2px solid;
+  width: 75%;
+  text-align: center;
+}
+
+#body_header_content{
+  font-weight: bolder;
+  font-size: 48px;
+  padding: 10px;
+  position: relative;
+}
+
+#body_header_paragraph{
+  position: relative;
+  bottom: 40px;
+}
+
+#main_content{
+  height: 530px;
+  position: relative;
+  top: 120px;
+}
+
+#vacation_image_container{
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+
+#vacation_image{
+  width: 720px;
+  height: 480px;
+  float: left;
+  position: relative;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+#vacation_image_button{
+  position: absolute;
+  color: white;
+  background-color: rgb(34, 104, 73);
+  bottom: 40px;
+  right: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#vacation_image_button:hover{
+  background-color: rgb(54, 124, 93);
+}
+
+#main_text{
+  height: 480px;
+  margin: 20px;
+  float: right;
+  width: 43%;
+  background-color: rgb(34, 104, 73);
+  border-radius: 8px;
+  color: white;
+}
+
+#main_paragraph_header{
+  text-align: center;
+  font-size: 28px;
+}
+
+.main_paragraph{
+  padding: 10px;
+}
+
+#footer{
+  width: 97.5%;
+  margin: 20px;
+  height: 125px;
+  margin-top: 20px;
+  background-color: rgb(255, 243, 228);
+  border-radius: 8px;
+  position: relative;
+  top: 110px;
+}
+
+#footer_title{
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  top: 22px;
+  left: 15px;
+}
+
+.links{
+  color: gray;
+  padding: 5px;
+  padding-left: 5px;
+  left: 10px;
+  top: 20px;
+  position: relative;
+  float: left;
+}
+
+.links:hover{
+  color: black;
+}

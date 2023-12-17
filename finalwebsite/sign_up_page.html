@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta content="en-us" http-equiv="Content-Language" />
+    <link href="sign_up_page-style.css" type="text/css" rel="stylesheet" />
+
+    <title>Sign Up</title>
+
+  </head>
+
+  <body>
+
+    <div id="header">
+
+      <a href="mainpage.html"><img class="logo" alt="logo" src="logo.png"/></a>
+      <p id="main_title">Travel Agency</p>
+      <button class="header_button">Socials</button>
+      <button class="header_button">About Us</button>
+
+    </div>
+
+    <div id="body">
+
+      <div id="body_header">
+
+        <p id="body_header_content">Sign Up With Travel Agency</p>
+        <p id="body_header_paragraph">By signing up with Travel Agency you can recieve free perks and start planning your dream vacation 100% free.</p>
+
+      </div>
+
+      <div id=text_area>
+
+        <p id="sub_header">Welcome Your New Account to</p>
+        <img id="sub_header_logo" alt="logo" src="logo.png"/>
+        <h3 id="sub_header_companyname">Travel Agency</h3>
+        <p id="text_area_paragraph">Travel Agency is a 100% free to use platform where you can easily plan out your dream vacation not only at ease,
+        but also at absolutely zero cost. Our mission is to help you in whatever stressful life situation you may be in, in order to get you that relaxing
+       vacation you've been needing. With the help of our large team of support staff and developers, we can and will get you all the resources you need
+     in order to find you the perfect getaway at your own personalized budget. So sign up with us, free without any type of subscription.</p>
+        <p id="text_area_footer">Travel Agency | Sign Up</p>
+
+      </div>
+
+      <div id="sign_up_area_left">
+
+        <p class="sign_up_area_header">Personal Information</p>
+
+        <h5 class="sign_in_header">First Name <span class="red_text">*<span></h5>
+        <input class="name_required" type="textarea"/>
+
+        <h5 class="sign_in_header">Middle Name (optional)</h5>
+        <input class="name_optional" type="textarea"/>
+
+        <h5 class="sign_in_header">Last Name <span class="red_text">*<span></h5>
+        <input class="name_required" type="textarea"/>
+
+        <h5 class="sign_in_header">Email Address <span class="red_text">*<span></h5>
+        <input id="email" type="textarea"/>
+
+        <h5 class="sign_in_header">Password (8-12 characters) <span class="red_text">*<span></h5>
+        <input class="name_required" type="password"/>
+
+        <h5 class="sign_in_header">Confirm Password <span class="red_text">*<span></h5>
+        <input class="name_required" type="password"/>
+
+      </div>
+
+      <div id="sign_up_area_right">
+
+        <p class="sign_up_area_header">Regional Information</p>
+
+        <h5 class="sign_in_header">Country <span class="red_text">*<span></h5>
+        <select id="countries" name="countries">
+          <option value="select">Please Select</option>
+          <option value="canada">Canada</option>
+        </select>
+
+        <h5 class="sign_in_header">Province/State (ex. ON, NS, etc.) <span class="red_text">*<span></h5>
+        <input id="province" type="textarea"/>
+
+        <h5 class="sign_in_header">City <span class="red_text">*<span></h5>
+        <input class="name_required" type="textarea"/>
+
+        <h5 class="sign_in_header">Postal Code <span class="red_text">*<span></h5>
+        <input class="name_required" type="textarea"/>
+
+        <h5 class="sign_in_header">Primary Phone Number <span class="red_text">*<span></h5>
+        <input class="name_required" type="textarea"/>
+
+        <h5 class="sign_in_header">Secondary Phone Number (optional)</h5>
+        <input class="name_optional" type="textarea"/>
+
+      </div>
+
+      <div id="sign_up_area_bottom">
+
+        <button class="sign_up_area_button" onclick="reset()">Reset Form</button>
+        <button class="sign_up_area_button" onclick="getForm()">Submit Form</button>
+
+      </div>
+
+    </div>
+
+    <div id="footer">
+
+      <img class="logo" alt="logo" src="logo.png"/>
+      <p id="footer_title">Travel Agency</p>
+      <a href="" class="links">Terms of Service</a>
+      <a href="" class="links">Write a Review</a>
+      <a href="" class="links">Contact Us</a>
+      <a href="" class="links">Careers</a>
+
+    </div>
+
+    <script type="text/javascript" src="sign_up_page-script.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,264 @@
+#header{
+  height: 80px;
+  border-bottom: black 1px solid;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  margin: 0 auto;
+  top: 0px;
+}
+
+#main_title{
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 auto;
+  top: 22px;
+  left: 15px;
+  margin-right: 10px;
+  position: relative;
+  float: left;
+}
+
+.logo{
+  border: black 2px solid;
+  border-radius: 50%;
+  float: left;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.header_button{
+  top: 20px;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 16px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  margin-left: 10px;
+  position: relative;
+  float: right;
+  right: 30px;
+}
+
+#body{
+
+}
+
+#body_header{
+  top: 80px;
+  margin: 0 auto;
+  position: relative;
+  height: 130px;
+  border-bottom: black 2px solid;
+  width: 65%;
+  text-align: center;
+}
+
+#body_header_content{
+  font-weight: bolder;
+  font-size: 48px;
+  padding: 10px;
+  position: relative;
+}
+
+#body_header_paragraph{
+  position: relative;
+  bottom: 40px;
+}
+
+#text_area{
+  width: 39%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgb(34, 104, 73);
+  color: white;
+  position: relative;
+  top: 100px;
+  height: 515px;
+  float: left;
+}
+
+#sub_header{
+  font-size: 24px;
+  text-align: center;
+  position: relative;
+}
+
+#sub_header_logo{
+  border: black 2px solid;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  width: auto;
+  height: 50px;
+}
+
+#sub_header_companyname{
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+}
+
+#text_area_paragraph{
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  top: 25px;
+}
+
+#text_area_footer{
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+
+#sign_up_area_left{
+  width: 26%;
+  float: left;
+  height: 515px;
+  position: relative;
+  top: 100px;
+  margin: 10px;
+  padding: 10px;
+  border: black 1px solid;
+  border-radius: 8px;
+}
+
+#sign_up_area_right{
+  width: 26%;
+  float: right;
+  height: 515px;
+  position: relative;
+  top: 100px;
+  margin: 10px;
+  padding: 10px;
+  border: black 1px solid;
+  border-radius: 8px;
+}
+
+.sign_up_area_header{
+  font-size: 18px;
+  border-bottom: black 1px solid;
+  width: 60%;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  bottom: 20px;
+}
+
+.sign_in_header{
+  position: relative;
+  bottom: 20px;
+}
+
+.name_required{
+  position: relative;
+  bottom: 30px;
+}
+
+.name_optional{
+  position: relative;
+  bottom: 30px;
+}
+
+#email{
+  position: relative;
+  bottom: 30px;
+  width: 300px;
+}
+
+#countries{
+  position: relative;
+  bottom: 25px;
+  margin-bottom: 5px;
+}
+
+#province{
+  position: relative;
+  bottom: 30px;
+  width: 40px;
+}
+
+.red_text{
+  color: red;
+}
+
+#sign_up_area_bottom{
+  width: 100%;
+  float: right;
+  height: 45px;
+  position: relative;
+  top: 100px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.sign_up_area_button{
+  position: relative;
+  color: white;
+  background-color: rgb(34, 104, 73);
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  float: right;
+  bottom: 10px;
+}
+
+.sign_up_area_button:hover{
+  background-color: rgb(54, 124, 93);
+}
+
+#footer{
+  width: 97.5%;
+  margin: 20px;
+  height: 125px;
+  margin-top: 20px;
+  background-color: rgb(255, 243, 228);
+  border-radius: 8px;
+  position: relative;
+  top: 700px;
+}
+
+#footer{
+  width: 97.5%;
+  margin: 20px;
+  height: 125px;
+  margin-top: 20px;
+  background-color: rgb(255, 243, 228);
+  border-radius: 8px;
+  position: absolute;
+  top: 900px;
+  right: 5px;
+
+}
+
+#footer_title{
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  left: 15px;
+}
+
+.links{
+  color: gray;
+  padding: 5px;
+  padding-left: 5px;
+  left: 85px;
+  position: relative;
+  float: left;
+}
+
+.links:hover{
+  color: black;
+}

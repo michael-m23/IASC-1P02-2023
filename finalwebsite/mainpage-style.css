@@ -1,0 +1,302 @@
+#header{
+
+}
+
+#main_header{
+  height: 80px;
+  border-bottom: black 1px solid;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  margin: 0 auto;
+  top: 0px;
+}
+
+.logo{
+  border: black 2px solid;
+  border-radius: 50%;
+  float: left;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+#main_menu{
+  margin-top: 20px;
+  height: 160px;
+  text-align: center;
+  position: relative;
+  top: 110px;
+}
+
+#main_title{
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 auto;
+  top: 22px;
+  left: 15px;
+  margin-right: 10px;
+  position: relative;
+  float: left;
+}
+
+#sub_title{
+  font-size: 48px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#body{
+
+}
+
+#search{
+  width: 100%;
+  height: 54px;
+  position: relative;
+  top: 110px;
+}
+
+#search_area{
+  color: gray;
+  border: black 2px solid;
+  border-radius: 16px;
+  width: 60%;
+  float: left;
+  position: relative;
+  left: 20%;
+}
+
+#search_logo{
+  margin: 10px;
+  position: relative;
+  float: left;
+  width: 30px;
+  height: 30px;
+}
+
+#search_bar{
+  top: 8px;
+  font-size: 20px;
+  padding: 5px;
+  position: relative;
+  float: left;
+  width: 83%;
+  border: none;
+}
+
+#search_bar_button{
+  cursor: pointer;
+  font-size: 16px;
+  top: 5px;
+  position: relative;
+  border-radius: 16px;
+  border: none;
+  padding: 10px;
+  float: right;
+  margin-right: 5px;
+  background-color: rgb(34, 104, 73);
+  color: white;
+}
+
+#search_bar_button:hover{
+  background-color: rgb(54, 124, 93);
+}
+
+#main_content{
+  margin-top: 50px;
+  width: 100%;
+  height: 830px;
+  position: relative;
+  top: 110px;
+}
+
+#image_one_container{
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+
+#image_one{
+  width: 720px;
+  height: 480px;
+  margin: 10px;
+  margin-left: 20px;
+  border-radius: 8px;
+}
+
+#image_one_text{
+  font-size: 28px;
+  position: absolute;
+  left: 30px;
+  color: white;
+  float: left;
+}
+
+#image_one_button{
+  position: absolute;
+  color: white;
+  background-color: rgb(34, 104, 73);
+  bottom: 25px;
+  right: 25px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#image_one_button:hover{
+  background-color: rgb(54, 124, 93);
+}
+
+#image_two_container{
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+#image_two{
+  width: 600px;
+  height: 800px;
+  float: right;
+  border-radius: 8px;
+  margin: 10px;
+  margin-right: 20px;
+}
+
+#image_two_text1{
+  font-size: 28px;
+  position: absolute;
+  float: right;
+  color: white;
+  right: 60px;
+  top: 70px;
+}
+
+#image_two_text2{
+  font-size: 28px;
+  position: absolute;
+  float: right;
+  color: white;
+  right: 60px;
+  top: 120px;
+}
+
+#image_two_button{
+  position: absolute;
+  background-color: rgb(34, 104, 73);
+  color: white;
+  bottom: 25px;
+  left: 25px;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+#image_two_button:hover{
+  background-color: rgb(54, 124, 93);
+}
+
+#main_text{
+  position: absolute;
+  background-color: rgb(34, 104, 73);
+  color: white;
+  width: 720px;
+  height: 303px;
+  top: 507px;
+  margin-left: 20px;
+  border-radius: 8px;
+}
+
+#main_text_header{
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.main_text_one{
+  padding: 8px;
+}
+
+#footer{
+  width: 97.5%;
+  margin: 20px;
+  height: 125px;
+  margin-top: 20px;
+  background-color: rgb(255, 243, 228);
+  border-radius: 8px;
+  position: relative;
+  top: 110px;
+}
+
+#footer_title{
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  top: 22px;
+  left: 15px;
+}
+
+.links{
+  color: gray;
+  padding: 5px;
+  padding-left: 5px;
+  left: 10px;
+  top: 20px;
+  position: relative;
+  float: left;
+}
+
+.links:hover{
+  color: black;
+}
+
+.header_button{
+  top: 20px;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 16px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  margin-left: 10px;
+  position: relative;
+  float: right;
+  right: 30px;
+}
+
+.header_button:hover{
+  background-color: rgb(47, 47, 47);
+}
+
+.menu_button{
+  top: 30px;
+  cursor: pointer;
+  padding: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /*background-color: rgb(135, 206, 235);*/
+  background-color: white;
+  border: none;
+  border-bottom: black 2px solid;
+  font-size: 20px;
+  position: relative;
+}
+
+.menu_button:hover{
+  color: gray;
+  border-color: gray;
+}
